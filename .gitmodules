@@ -1,0 +1,3 @@
+[submodule "LittlePlaNet"]
+	path = LittlePlaNet
+	url = git@github.com:AShedko/UIR8_im2gps.git
