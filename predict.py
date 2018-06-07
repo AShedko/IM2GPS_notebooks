@@ -1,7 +1,9 @@
 import torch
 import torchvision.transforms as transforms
 import sys
-model = torch.load("./models/resnet50_trained").to(torch.device("cpu"))
+
+model = torch.load("./models/resnet50_trained").to(torch.device("cpu")).eval()
+
 tf = transforms.Compose([
         transforms.Resize(256),
         transforms.CenterCrop(224),

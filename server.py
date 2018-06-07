@@ -1,4 +1,6 @@
-from bottle import route, run, get, post, request
+"""Dev-Server for model"""
+
+from bottle import route, run, request
 from predict import *
 import PIL
 import urllib
